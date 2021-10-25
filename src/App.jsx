@@ -5,11 +5,13 @@ import { Layout, Typography, Space } from "antd";
 import { Navbar } from "./components";
 
 //pages
-import Homepage from "./pages/Homepage";
-import Exchanges from "./pages/Exchanges";
-import Cryptocurrencies from "./pages/Cryptocurrencies";
-import CryptoDetails from "./pages/CryptoDetails";
-import News from "./pages/News";
+import {
+  Homepage,
+  Exchanges,
+  Cryptocurrencies,
+  CryptoDetails,
+  News,
+} from "./pages";
 
 import "./App.css";
 
